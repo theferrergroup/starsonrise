@@ -1,0 +1,365 @@
+@font-face {
+	font-family: 'Shojumaru-Regular';
+    src: url('fonts/original_Shojumaru-Regular.eot?#iefix') format('embedded-opentype'), 
+         url('fonts/original_Shojumaru-Regular.woff') format('woff'),
+         url('fonts/original_Shojumaru-Regular.ttf') format('truetype'),
+         url('fonts/original_Shojumaru-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    color: white;
+    position: fixed; 
+    background-color: #262626 !important;   
+	font-weight: bold;
+	padding: 8px 5px;
+	left: 1px;
+}
+
+.volver{
+	color:white !important;
+}
+
+.loader{
+	width: 25px; height: 25px;; opacity: 0.4; padding-top: 50%;
+}
+
+.img-logo{	
+/*width: 50px;
+padding-top: 2px;
+display: inline-block;
+valign: middle;
+float: left;
+margin-right:15px;
+margin-left:10px;*/ 
+	height:25px;
+	float:right;
+	margin-right:8px;
+	padding:3px 0px 8px 8px;
+	border-left: 1px solid #666;
+}
+
+.btn-rojo {
+	background-color: #c05502 !important;
+	width: 95% !important;
+	border-style: none !important;
+	font-family: Sans-Serif !important;
+}
+
+.btn-rojo:hover, visited{ background-color: #9b2225 !important; color: white !important; }
+
+
+/*btn slider y barra*/
+[class^="icon-"], [class*=" icon-"]{line-height:0 !important}
+.btn-for-slider{
+	text-decoration: none;
+	border-right: solid #666 1px;
+	position: relative;
+	font-size: 22px;
+	padding: 10px 10px;
+	line-height: 23px !important;
+	padding: 6px 10px 7px;
+	float:left;
+}
+
+.bar{
+	border-bottom: solid #666 1px;
+	/*padding-top: 10px;
+	padding-bottom: 6px;*/
+	position: relative;
+	width: 100%;
+	display: inline-block;
+}
+/*...*/
+
+/*se aplican más que todo en menu.html*/
+.row{display:inline-block;width:100%;}
+.grid_6{
+	position: relative;
+	width:50%;
+	float:left;
+	max-height:50vw;
+	display:inline-block;
+}
+.endos{display:inline-block;background-color:#1a0b01}
+
+.img1{
+	width: 100%;
+	height:100px;
+	margin-bottom: -45px;
+}
+.imgcata{
+	height:150px;
+}
+
+.img1-click{
+	-webkit-box-shadow: 0px 2px 20px 4px rgba(255,0,0,1);
+    -moz-box-shadow: 0px 2px 20px 4px rgba(255,0,0,1);
+	box-shadow: 0px 2px 20px 4px rgba(255,0,0,1);
+}
+
+.backgr-box-red{
+	position: relative;
+	bottom: 20px;
+	background-color: c05502;
+	width: 100%;
+	padding: 4% 100%;
+	opacity: 0.6;
+	border-bottom: solid black 2px;
+	border-top: solid black 2px;
+}
+
+.font-box-red{
+	position: absolute;
+	text-shadow: -1px 1px 4px rgba(0,0,0,1);
+	font-family:'Shojumaru-Regular', Sans-Serif;
+	padding:7px 10px
+}
+
+.big{
+	font-size: 30px;
+}
+.med{font-size:20px;}
+.small{font-size:12px;}
+/*Se aplican más que todo en sushi.html*/
+
+.sushi-img{
+	width: 100%;
+	position: relative;
+}
+
+.sush{
+	/*border-bottom:  solid white 1px; border-right: solid white 1px; border-left: solid white 1px;*/
+	padding-top: 10px;
+	text-align: justify;
+	position: relative;
+	bottom: 5px;
+}
+
+ul.comentarios-sush{
+	position: relative;
+	top: 5px;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+.ih{ color: white !important; 
+	font-size: 20px !important;
+}
+
+.ih2{ color: red !important; 
+	font-size: 25px !important;
+}
+
+.ib{
+	color: white !important;
+	font-size: 20px !important;
+	position: relative !important;
+	left: 10% !important;
+}
+
+.btn-top-sush{
+	/*border: solid white 1px;
+	bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-weight: bold;
+	padding: 3px 3px;*/
+	position: relative;
+	text-decoration: none;
+	display: block;
+	height: 100%;
+	text-align: center;
+	/*float: left;*/
+	margin-left: 45px;
+	margin-right: 45px;
+	letter-spacing:3px;
+	width:calc(100% - 95px);
+}
+.shojumaru{
+	font-family: 'Shojumaru-Regular';
+}
+.big-text{
+	font-size: 1.5em;
+	line-height:.9em;
+}
+.small-text{
+	font-size:10px;
+}
+.text-white{
+	color:white;
+}
+.text-red{
+	color:#c70005;
+}
+/*...*/
+
+
+/*MODAL*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+} 
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #000000;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #EC0000;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+/*MODAL*/
+
+.btn-compra{
+	color: white !important;
+	font-size: 24px !important;
+	position: relative !important;
+	left: 20% !important;
+}
+
+
+.platos{
+	width:100%;
+	display:inline-block;
+	position:relative;
+}
+.platos img{
+	width:100%;
+	height:auto;
+}
+.platos:hover,.platos:focus,.platos:active{
+	box-shadow: 1px 0 15px #C60000;
+}
+.platos:hover img,.platos:focus img,.platos:active img{
+	opacity:0.5;
+}
+.ui-content{padding:0 !important}
+.ui-btn,.ui-header .ui-btn, .ui-footer .ui-btn{margin:0px 0;border:none !important;font-size:25px !important;}
+.btn-left,.ui-header .ui-btn, .ui-footer .btn-left{float:left;margin-left:10px;}
+.btn-right,.ui-header .ui-btn, .ui-footer .btn-right{float:right;margin-right:10px;}
+.icon-home-pic{background:url(../img/diamond5050.png) no-repeat center;background-size:38px;height:26px;}
+
+.home{
+	background-attachment: fixed !important;
+  	background-position: center center !important;
+  	background-size: cover !important;
+  	background-color: white !important;
+	height:100%;
+}
+
+.btn-diamond {
+  background: #ea1939 ;
+  background-image: -webkit-linear-gradient(top, #f6425d  , black);
+  background-image: -moz-linear-gradient(top, #f6425d , black);
+  background-image: -ms-linear-gradient(top, #f6425d , black);
+  background-image: -o-linear-gradient(top, #f6425d , black);
+  background-image: linear-gradient(to bottom, #f6425d , black);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 30px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width:auto !important;
+  min-width: 70% !important;
+}
+
+.btn-diamond:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #f6425d, #f6425d);
+  background-image: -moz-linear-gradient(top, #f6425d, #f6425d);
+  background-image: -ms-linear-gradient(top, #f6425d, #f6425d);
+  background-image: -o-linear-gradient(top, #f6425d, #f6425d);
+  background-image: linear-gradient(to bottom, #f6425d, #f6425d);
+  text-decoration: none;
+}
+
+.bg1{
+	background-image:url(../img/bg1.png) !important;
+}
+
+.bg0{
+	background-image:url(../img/bg0.png) !important;
+}
+
+.cajaestilosa {
+
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+color: #ffffff;
+font-size: 18px;
+font-weight: 400;
+text-align: center;
+background: #889ccf;
+margin: 0 0 25px;
+overflow: hidden;
+padding: 20px;
+border-radius: 35px 0px 35px 0px;
+-moz-border-radius: 35px 0px 35px 0px;
+-webkit-border-radius: 35px 0px 35px 0px;
+border: 2px solid #5878ca;
+max-width: 75% !important;
+margin: 10px auto !important;
+}
