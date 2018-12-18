@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+   
+    <body>   
+        <div data-role="page" id="catalogo" class="home bg1">
+          <label style="color: black;">Select Photo Number</label>
+          <select id="slcFotoCatlogo">
+            <option value="0">-------</option>
+            <option value="1">Photo One</option>
+            <option value="2">Photo Two</option>
+            <option value="3">Photo Three</option>
+            <option value="4">Photo Four</option>
+          </select> 
+
+          <input type="file" name="archivoImagen" id="archivoImagen">
+          <input type="button" id="subircatalogo" value="Upload Catalogue Photo">
+            
+          <div id="respuesta">
+            
+          </div>  
+          <br/>
+          <div role="main" class="ui-content ui-content-2">
+              <center>
+               <div class="endos row">
+                  <div class="grid_6" id="btMenuSer01">
+                    <div id="foto1">
+                      <img class="imgcata" src="img/sinfoto.jpg">
+                    </div>
+                  </div>
+                  <div class="grid_6"  id="btMenuSer02">
+                    <div id="foto2">
+                      <img class="imgcata" src="img/sinfoto.jpg">
+                    </div>
+                  </div>
+                  <div class="grid_6" id="btMenuSer03">
+                    <div id="foto3">
+                      <img class="imgcata" src="img/sinfoto.jpg">
+                    </div>
+                  </div>
+                  <div class="grid_6" id="btMenuSer04">
+                    <div id="foto4">
+                      <img class="imgcata" src="img/sinfoto.jpg">
+                    </div>
+                  </div>
+                </div>
+              </center>
+              <br/>
+ 
+              <div data-role="header">
+                <h1 id="hdHeadPanel"><span class="icon-hour-glass"></span> Wait a Moment Please ....</h1>
+              </div>
+              <br/>
+              <center><button style="" class="btn-diamond" id="grabarcatalogo">Save Catalogue Photo</button></center>
+             
+
+              <br/>
+              <center><button class="btn-diamond" id="liCerrar"><span class="icon-undo"></span> Go Back</button></center>
+              <div data-role="footer" data-position="fixed">
+                  <h1>Copyright 2018 - DiamondAppNow.com</h1>
+              </div>
+        </div>
+    </body>
+
+</html>
